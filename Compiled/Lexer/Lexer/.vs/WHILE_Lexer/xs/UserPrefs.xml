@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{F96D07E4-5B48-4DE5-B107-EE06CBD15E17}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainClass.cs">
+    <Files>
+      <File FileName="LexingClasses/Lexer.cs" Line="447" Column="1" />
+      <File FileName="LexingClasses/LexingRules.cs" Line="74" Column="31" />
+      <File FileName="LexingClasses/Rectification.cs" Line="1" Column="1" />
+      <File FileName="LexingClasses/Token.cs" Line="1" Column="1" />
+      <File FileName="Extras/Helper.cs" />
+      <File FileName="Extras/Pair.cs" />
+      <File FileName="Extras/StringOps.cs" />
+      <File FileName="MainClass.cs" Line="54" Column="1" />
+      <File FileName="RexpClasses/Alt.cs" Line="1" Column="1" />
+      <File FileName="RexpClasses/Char.cs" Line="1" Column="1" />
+      <File FileName="RexpClasses/One.cs" Line="1" Column="1" />
+      <File FileName="RexpClasses/Rexp.cs" Line="1" Column="1" />
+      <File FileName="RexpClasses/Recd.cs" Line="1" Column="1" />
+      <File FileName="RexpClasses/Zero.cs" Line="1" Column="1" />
+      <File FileName="Values/Chr.cs" Line="1" Column="1" />
+      <File FileName="Values/Left.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WHILE_Lexer" expanded="True">
+            <Node name="WHILE_Lexer" expanded="True">
+              <Node name="LexingClasses" expanded="True" />
+              <Node name="RexpClasses" expanded="True" />
+              <Node name="Values" expanded="True" />
+              <Node name="MainClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WHILE__Lexer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

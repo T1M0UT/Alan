@@ -1,0 +1,1 @@
+List(Assign(bnd,Num(1)), While(Bop(<,Var(bnd),Num(101)),List(WriteVar(bnd), Assign(n,Var(bnd)), Assign(cnt,Num(0)), While(Bop(>,Var(n),Num(1)),List(WriteVar(n), If(Bop(==,Aop(%,Var(n),Num(2)),Num(0)),List(Assign(n,Aop(/,Var(n),Num(2)))),List(Assign(n,Aop(+,Aop(*,Num(3),Var(n)),Num(1))))), Assign(cnt,Aop(+,Var(cnt),Num(1))))), WriteVar(cnt), Assign(bnd,Aop(+,Var(bnd),Num(1))))))

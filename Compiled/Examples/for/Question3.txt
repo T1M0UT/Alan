@@ -1,0 +1,23 @@
+For saving variables in memory we use the environment, which stores them by id and value so
+in case of nested for-loops which use the same variable name like:
+for i := 1 upto 10 do {
+	for i := 1 upto 10 do {
+		write i;
+	}
+}
+The variable i is stored by the same unique reference. Therefore, the loop compiles and the output is:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+In addition, if "upto" expression is not a number, but a variable or an arithmetical expression, parentheses are obligatory:
+n := 10;
+for i := 1 upto (n) do {
+	//some code
+}

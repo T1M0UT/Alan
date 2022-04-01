@@ -1,0 +1,29 @@
+Keyword : if
+Whitespace :  
+Paren : (
+Id : a
+Whitespace :  
+Operation : <
+Whitespace :  
+Id : b
+Paren : )
+Whitespace :  
+Keyword : then
+Whitespace :  
+Keyword : skip
+Whitespace :  
+Keyword : else
+Whitespace :  
+Id : a
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : a
+Whitespace :  
+Operation : *
+Whitespace :  
+Id : b
+Whitespace :  
+Operation : +
+Whitespace :  
+Number : 1

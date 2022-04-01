@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{F96D07E4-5B48-4DE5-B107-EE06CBD15E17}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LexingClasses/Lexer.cs">
+    <Files>
+      <File FileName="Program.cs" Line="14" Column="62" />
+      <File FileName="LexingClasses/Lexer.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WHILE_language" expanded="True">
+            <Node name="WHILE_language" expanded="True">
+              <Node name="Extras" expanded="True" />
+              <Node name="LexingClasses" expanded="True">
+                <Node name="Lexer.cs" selected="True" />
+              </Node>
+              <Node name="RexpClasses" expanded="True" />
+              <Node name="Values" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WHILE__language PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

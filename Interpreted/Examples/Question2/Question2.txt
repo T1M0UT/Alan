@@ -1,0 +1,1 @@
+if (a < b) then skip else a := a * b + 1

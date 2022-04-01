@@ -1,0 +1,1 @@
+List(WriteStr(Factorial), Assign(result,Num(1)), Assign(n,Num(10)), For(i,Num(2),Var(n),List(Assign(result,Aop(*,Var(result),Var(i))))), WriteVar(result))

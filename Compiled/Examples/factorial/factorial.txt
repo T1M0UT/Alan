@@ -1,0 +1,7 @@
+write "Factorial";
+result := 1;
+n := 10;
+for i:=2 upto (n) do{
+	result := result * i
+};
+write result

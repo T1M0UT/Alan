@@ -1,0 +1,19 @@
+// Collatz series
+
+bnd := 1;
+while bnd < 101 do {
+	write bnd;
+	n := bnd;
+	cnt := 0;
+
+	while n > 1 do {
+		write n;
+		if n % 2 == 0
+		then n := n / 2
+		else n := 3 * n+1;
+		
+		cnt := cnt + 1
+	};
+write cnt;
+bnd := bnd + 1
+}

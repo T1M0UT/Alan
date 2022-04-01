@@ -1,0 +1,32 @@
+Keyword : for
+Whitespace :  
+Id : i
+Operation : :=
+Number : 1
+Whitespace :  
+Keyword : upto
+Whitespace :  
+Number : 10
+Whitespace :  
+Keyword : do
+Paren : {
+Whitespace : 	
+Keyword : for
+Whitespace :  
+Id : i
+Operation : :=
+Number : 1
+Whitespace :  
+Keyword : upto
+Whitespace :  
+Number : 10
+Whitespace :  
+Keyword : do
+Paren : {
+Whitespace : 		
+Keyword : write
+Whitespace :  
+Id : i
+Whitespace : 	
+Paren : }
+Paren : }

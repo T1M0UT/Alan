@@ -1,0 +1,1 @@
+List(WriteStr(Fib), Assign(n,Num(10)), Assign(minus1,Num(0)), Assign(minus2,Num(1)), Assign(temp,Num(0)), While(Bop(>,Var(n),Num(0)),List(Assign(temp,Var(minus2)), Assign(minus2,Aop(+,Var(minus1),Var(minus2))), Assign(minus1,Var(temp)), Assign(n,Aop(-,Var(n),Num(1))))), Assign(result,Var(minus2)), WriteStr(Result), WriteVar(minus2))

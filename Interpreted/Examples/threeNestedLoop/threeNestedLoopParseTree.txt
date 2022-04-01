@@ -1,0 +1,1 @@
+List(Assign(start,Num(1000)), Assign(x,Var(start)), Assign(y,Var(start)), Assign(z,Var(start)), While(Bop(>,Var(x),Num(0)),List(While(Bop(>,Var(y),Num(0)),List(While(Bop(>,Var(z),Num(0)),List(Assign(z,Aop(-,Var(z),Num(1))))), Assign(z,Var(start)), Assign(y,Aop(-,Var(y),Num(1))))), Assign(y,Var(start)), Assign(x,Aop(-,Var(x),Num(1))))))

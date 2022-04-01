@@ -1,0 +1,12 @@
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.csprojAssemblyReference.cache
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.AssemblyInfoInputs.cache
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.AssemblyInfo.cs
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.csproj.CoreCompileInputs.cache
+/Users/Tymur/Projects/Parser/Parser/bin/Debug/netcoreapp3.1/Parser.deps.json
+/Users/Tymur/Projects/Parser/Parser/bin/Debug/netcoreapp3.1/Parser.runtimeconfig.json
+/Users/Tymur/Projects/Parser/Parser/bin/Debug/netcoreapp3.1/Parser.runtimeconfig.dev.json
+/Users/Tymur/Projects/Parser/Parser/bin/Debug/netcoreapp3.1/Parser.dll
+/Users/Tymur/Projects/Parser/Parser/bin/Debug/netcoreapp3.1/Parser.pdb
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.dll
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.pdb
+/Users/Tymur/Projects/Parser/Parser/obj/Debug/netcoreapp3.1/Parser.genruntimeconfig.cache

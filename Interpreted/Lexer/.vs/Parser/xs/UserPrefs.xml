@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A7A19C57-DC05-4494-BB1C-63753B5D9F0E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Parser/Parser.cs">
+    <Files>
+      <File FileName="Parser/Program.cs" Line="54" Column="1" />
+      <File FileName="Parser/LexingRules.cs" Line="161" Column="1" />
+      <File FileName="Parser/Lexer.cs" Line="426" Column="4" />
+      <File FileName="Parser/Rectification.cs" Line="1" Column="1" />
+      <File FileName="Parser/Parser.cs" Line="4" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Parser" expanded="True">
+            <Node name="Parser" expanded="True">
+              <Node name="RexpClasses" expanded="True" />
+              <Node name="Parser.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Parser PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

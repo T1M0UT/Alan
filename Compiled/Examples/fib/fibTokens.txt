@@ -1,0 +1,91 @@
+Keyword : write
+Whitespace :  
+String : "Fib"
+Semicolon : ;
+Id : n
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 10
+Semicolon : ;
+Id : minus1
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 0
+Semicolon : ;
+Id : minus2
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 1
+Semicolon : ;
+Id : temp
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 0
+Semicolon : ;
+Keyword : while
+Whitespace :  
+Paren : (
+Id : n
+Whitespace :  
+Operation : >
+Whitespace :  
+Number : 0
+Paren : )
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 	
+Id : temp
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : minus2
+Semicolon : ;
+Whitespace : 	
+Id : minus2
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : minus1
+Whitespace :  
+Operation : +
+Whitespace :  
+Id : minus2
+Semicolon : ;
+Whitespace : 	
+Id : minus1
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : temp
+Semicolon : ;
+Whitespace : 	
+Id : n
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : n
+Whitespace :  
+Operation : -
+Whitespace :  
+Number : 1
+Paren : }
+Semicolon : ;
+Id : result
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : minus2
+Semicolon : ;
+Keyword : write
+Whitespace :  
+String : "Result"
+Semicolon : ;
+Keyword : write
+Whitespace :  
+Id : minus2

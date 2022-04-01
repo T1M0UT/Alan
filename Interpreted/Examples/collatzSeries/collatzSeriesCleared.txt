@@ -1,0 +1,1 @@
+bnd:=1;whilebnd<101do{writebnd;n:=bnd;cnt:=0;whilen>1do{writen;ifn%2==0thenn:=n/2elsen:=3*n+1;cnt:=cnt+1};writecnt;bnd:=bnd+1}

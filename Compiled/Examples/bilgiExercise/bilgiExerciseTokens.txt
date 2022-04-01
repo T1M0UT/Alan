@@ -1,0 +1,14 @@
+Id : index
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 2
+Whitespace :  
+Operation : *
+Whitespace :  
+Id : count
+Whitespace :  
+Operation : +
+Whitespace :  
+Number : 17
+Semicolon : ;

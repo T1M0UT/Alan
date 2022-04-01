@@ -1,0 +1,45 @@
+Keyword : write
+Whitespace :  
+String : "Factorial"
+Semicolon : ;
+Id : result
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 1
+Semicolon : ;
+Id : n
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 10
+Semicolon : ;
+Keyword : for
+Whitespace :  
+Id : i
+Operation : :=
+Number : 2
+Whitespace :  
+Keyword : upto
+Whitespace :  
+Paren : (
+Id : n
+Paren : )
+Whitespace :  
+Keyword : do
+Paren : {
+Whitespace : 	
+Id : result
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : result
+Whitespace :  
+Operation : *
+Whitespace :  
+Id : i
+Paren : }
+Semicolon : ;
+Keyword : write
+Whitespace :  
+Id : result

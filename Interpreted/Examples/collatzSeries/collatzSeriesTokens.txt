@@ -1,0 +1,66 @@
+Comment : // Collatz series
+Id : bnd
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 1
+Semicolon : ;
+Keyword : while
+Whitespace :  
+Id : bnd
+Whitespace :  
+Operation : <
+Whitespace :  
+Number : 101
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 	
+Keyword : write
+Whitespace :  
+Id : bnd
+Semicolon : ;
+Whitespace : 	
+Id : n
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : bnd
+Semicolon : ;
+Whitespace : 	
+Id : cnt
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 0
+Semicolon : ;
+Whitespace : 	
+Keyword : while
+Whitespace :  
+Id : n
+Whitespace :  
+Operation : >
+Whitespace :  
+Number : 1
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 		
+Keyword : write
+Whitespace :  
+Id : n
+Semicolon : ;
+Whitespace : 		
+Keyword : if
+Whitespace :  
+Id : n
+Whitespace :  
+Operation : %
+Whitespace :  
+Number : 2
+Whitespace :  
+Operation : ==
+Whitespace :  
+Number : 0

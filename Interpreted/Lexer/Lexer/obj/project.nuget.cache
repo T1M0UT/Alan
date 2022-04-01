@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eCaRaSvO3/fm97HP1SQYT8DU4NX+A5HZuc8FcV96gOftw7un0JM1Pl11pdCp80ozw8LjztlcOrdBRpqDRfOfBQ==",
+  "success": true,
+  "projectFilePath": "/Users/tymur/Desktop/Новая папка/ALAN/CW03/Lexer/Lexer/WHILE_Lexer.csproj",
+  "expectedPackageFiles": [
+    "/Users/tymur/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/tymur/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

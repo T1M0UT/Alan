@@ -1,0 +1,111 @@
+Id : start
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 1000
+Semicolon : ;
+Id : x
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : start
+Semicolon : ;
+Id : y
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : start
+Semicolon : ;
+Id : z
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : start
+Semicolon : ;
+Keyword : while
+Whitespace :  
+Number : 0
+Whitespace :  
+Operation : <
+Whitespace :  
+Id : x
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 	
+Keyword : while
+Whitespace :  
+Number : 0
+Whitespace :  
+Operation : <
+Whitespace :  
+Id : y
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 		
+Keyword : while
+Whitespace :  
+Number : 0
+Whitespace :  
+Operation : <
+Whitespace :  
+Id : z
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace :  
+Id : z
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : z
+Whitespace :  
+Operation : -
+Whitespace :  
+Number : 1
+Semicolon : ;
+Whitespace :  
+Paren : }
+Whitespace : 		
+Id : z
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : start
+Semicolon : ;
+Whitespace : 		
+Id : y
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : y
+Whitespace :  
+Operation : -
+Whitespace :  
+Number : 1
+Semicolon : ;
+Whitespace : 	
+Paren : }
+Whitespace : 	
+Id : y
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : start
+Semicolon : ;
+Whitespace : 	
+Id : x
+Whitespace :  
+Operation : :=
+Whitespace :  
+Id : x
+Whitespace :  
+Operation : -
+Whitespace :  
+Number : 1
+Semicolon : ;
+Paren : }

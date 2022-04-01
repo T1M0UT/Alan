@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{F96D07E4-5B48-4DE5-B107-EE06CBD15E17}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LexingClasses/Lexer.cs">
+    <Files>
+      <File FileName="LexingClasses/Lexer.cs" Line="409" Column="18" />
+      <File FileName="LexingClasses/LexingRules.cs" />
+      <File FileName="LexingClasses/Rectification.cs" />
+      <File FileName="LexingClasses/Token.cs" />
+      <File FileName="Extras/Helper.cs" />
+      <File FileName="Extras/Pair.cs" />
+      <File FileName="Extras/StringOps.cs" />
+      <File FileName="MainClass.cs" />
+      <File FileName="../../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WHILE_Lexer" expanded="True">
+            <Node name="WHILE_Lexer" expanded="True">
+              <Node name="LexingClasses" expanded="True">
+                <Node name="Lexer.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WHILE__Lexer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

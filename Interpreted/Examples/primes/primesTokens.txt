@@ -1,0 +1,58 @@
+Id : end
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 100
+Semicolon : ;
+Id : n
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 2
+Semicolon : ;
+Keyword : while
+Whitespace :  
+Paren : (
+Id : n
+Whitespace :  
+Operation : <
+Whitespace :  
+Id : end
+Paren : )
+Whitespace :  
+Keyword : do
+Whitespace :  
+Paren : {
+Whitespace : 	
+Id : f
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 2
+Semicolon : ;
+Whitespace : 	
+Id : tmp
+Whitespace :  
+Operation : :=
+Whitespace :  
+Number : 0
+Semicolon : ;
+Keyword : while
+Paren : (
+Paren : (
+Id : f
+Operation : <
+Id : n
+Operation : /
+Number : 2
+Operation : +
+Paren : )
+Operation : &&
+Paren : (
+Id : tmp
+Operation : ==
+Number : 0
+Paren : )
+Paren : )
+Keyword : do
+Paren : {

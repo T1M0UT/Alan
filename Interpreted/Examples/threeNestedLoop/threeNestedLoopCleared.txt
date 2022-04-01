@@ -1,0 +1,1 @@
+start:=1000;x:=start;y:=start;z:=start;whilex>0do{whiley>0do{whilez>0do{z:=z-1};z:=start;y:=y-1};y:=start;x:=x-1}
