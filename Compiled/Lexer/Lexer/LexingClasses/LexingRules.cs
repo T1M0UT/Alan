@@ -98,7 +98,8 @@ namespace WHILE_Lexer
         public static Rexp OP()
         {
             String[] str = new String[] {
-                ":=",
+                "" +
+                "=",
                 "==",
                 "-",
                 "+",

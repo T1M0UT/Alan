@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Au9UCFCWqOoIrTZrJi3+M4fjukN6dX/cfVNJIStAdghPPDL+OH/Wp0/+iPxT1uKKbDsuZgOVj2ER2S6kOaKmOg==",
+  "dgSpecHash": "yzUsMcbeI71RrTACa4730TJnsvp/8S3yw3Gnl8Wgc+jGaMQJ++2b6DLqAdyhdGNCzB/tvxHMUE5/yYdvoneTCg==",
   "success": true,
-  "projectFilePath": "/Users/tymur/Desktop/Alan/ALAN/CW04/Lexer/Lexer/WHILE_Lexer.csproj",
+  "projectFilePath": "/Users/tymur/Desktop/Alan/ALAN/Compiled/Lexer/Lexer/WHILE_Lexer.csproj",
   "expectedPackageFiles": [
     "/Users/tymur/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "/Users/tymur/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",

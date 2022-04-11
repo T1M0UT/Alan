@@ -14,6 +14,7 @@ class parser {
            if tl.isEmpty) yield hd
   }
 
+
   // Parser combinators
 
   // Sequence parser
@@ -151,7 +152,7 @@ class parser {
   // a single statement
   lazy val Stmt: Parser[String, Stmt] =
     (p"skip".map[Stmt]{_ => Skip }
-      || (p"for" ~ IdParser ~ p":=" ~ AExp ~ p"upto" ~ AExp ~ p"do" ~ Block).map[Stmt]{ case _ ~ x ~ _ ~ y ~ _ ~ z ~ _ ~ w => For(x, y, z, w)}
+      || (p"for" ~ IdParser ~ p"=" ~ AExp ~ p"upto" ~ AExp ~ p"do" ~ Block).map[Stmt]{ case _ ~ x ~ _ ~ y ~ _ ~ z ~ _ ~ w => For(x, y, z, w)}
       || (p"read" ~ IdParser).map[Stmt]{ case _ ~ y => Read(y) }
       || (p"read(" ~ IdParser ~ p")").map[Stmt]{ case _ ~ y ~ _ => Read(y) }
       || (p"""write"""" ~ StringParser ~ p""""""").map[Stmt]{ case _ ~ s ~ _ => WriteStr(s) }
@@ -159,7 +160,7 @@ class parser {
       || (p"write" ~ IdParser).map[Stmt]{ case _ ~ y => WriteVar(y) }
       || (p"if" ~ BExp ~ p"then" ~ Block ~ p"else" ~ Block).map[Stmt]{ case _ ~ y ~ _ ~ u ~ _ ~ w => If(y, u, w) }
       || (p"while" ~ BExp ~ p"do" ~ Block).map[Stmt]{ case _ ~ y ~ _ ~ w => While(y, w) }
-      || (IdParser ~ p":=" ~ AExp).map[Stmt]{ case x ~ _ ~ z => Assign(x, z) }
+      || (IdParser ~ p"=" ~ AExp).map[Stmt]{ case x ~ _ ~ z => Assign(x, z) }
       )
 
 

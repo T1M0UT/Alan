@@ -141,10 +141,10 @@ class compile extends parser {
 
   def run(bl: Block, class_name: String) = {
     val code = compile(bl, class_name)
-    val folder = os.pwd / os.up / "Examples" / s"$class_name"
+    val folder = os.pwd / s"$class_name";// / os.up / "Examples" / s"$class_name"
     os.makeDir.all(folder)
     os.write.over(folder / s"$class_name.j", code)
-    os.proc("java", "-jar", "jasmin-2.4/jasmin.jar", s"$folder/$class_name.j").call()
+    os.proc("java", "-jar", "/Users/tymur/Desktop/Alan/ALAN/Compiled/ParserCombinators/jasmin-2.4/jasmin.jar", s"$folder/$class_name.j").call()
     print(os.proc("java", s"$class_name/$class_name").call().out.text())
   }
 
@@ -170,10 +170,10 @@ class compile extends parser {
     return
 .end method
 
+; int read()
 .method public static read()I
     .limit locals 10
     .limit stack 10
-
     ldc 0
     istore 1  ; this will hold our final integer
 Label1:
@@ -181,26 +181,7 @@ Label1:
     invokevirtual java/io/InputStream/read()I
     istore 2
     iload 2
-    ldc 10   ; the newline delimiter  CHANGED 10 -> 13
-    isub
-    ifeq Label2
-    iload 2
-    ldc 32   ; the space delimiter
-    isub
-    ifeq Label2
-
-    iload 2
-    ldc 48   ; we have our digit in ASCII, have to subtract it from 48
-    isub
-    ldc 10
-    iload 1
-    imul
-    iadd
-    istore 1
-    goto Label1
-Label2:
-    ;when we come here we have our integer computed in local variable 1
-    iload 1
+    ;when we come here we have our integer computed in Local Variable 1
     ireturn
 .end method
 

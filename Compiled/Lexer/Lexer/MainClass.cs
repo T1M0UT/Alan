@@ -7,24 +7,37 @@ namespace WHILE_Lexer
 {
     class MainClass
     {
-        private static string GetFilePath(string folder, string fileName) => $"../../Examples/{folder}/{fileName}";
+        //private static string GetFilePath(string folder, string fileName) => $"/Users/tymur/Desktop/Alan/ALAN/Compiled/Examples/{folder}/{fileName}";
 
-        public static void Main()
+        public static void Main(String[] args)
         {
             //Read file
 
             Lexer lexer = new Lexer();
 
-            Console.Clear();
-            Console.WriteLine("Enter the file name (e.g. fib.txt): ");
-            string fileName = Console.ReadLine();
+            //Console.Clear();
+            //onsole.WriteLine("Enter the file name (e.g. fib.txt): ");
+            //string fileName = Console.ReadLine();
+            if (args.Length != 1)
+            {
+                // Print usage
+                Console.WriteLine("Usage: WHILE_Lexer <path_filename>");
+                return;
+            }
 
+            var path_filename = args[0].Split('/');
+            string path = String.Join('/', path_filename[0..^1]);
+            //Console.WriteLine(path);
+            string fileName = path_filename.Last();
+            
+            Console.WriteLine("Lexing...");
+            
             string[] tag = fileName.Split('.');
             string folder = tag[0];
             try
             {
                 IEnumerable<string> lines;
-                string inputFilePath = GetFilePath(folder, fileName);
+                string inputFilePath = $"{path}/{fileName}";
                 using (StreamReader inputFile = new StreamReader(inputFilePath))
                 {
                     lines = File.ReadLines(inputFilePath);
@@ -43,7 +56,8 @@ namespace WHILE_Lexer
                 //Write lex tokens to file
 
                 string tokensFileName = tag[0] + "Tokens." + tag[1];
-                string tokensFilePath = GetFilePath(folder, tokensFileName);
+                // string tokensFilePath = GetFilePath(folder, tokensFileName);
+                string tokensFilePath = $"{path}/{tokensFileName}";
                 using (StreamWriter outputFile = new StreamWriter(tokensFilePath))
                 {
                     foreach (Token token in lexer.tokens)
@@ -53,8 +67,10 @@ namespace WHILE_Lexer
                 }
 
                 //Write cleared from comments and whitespaces program to file
-                string clearedStringFileName = tag[0] + "Cleared." + tag[1];
-                string clearedStringFilePath = GetFilePath(folder, clearedStringFileName);
+                //string clearedStringFileName = tag[0] + "Cleared." + tag[1];
+                //Console.WriteLine(tag[0] + ", " + tag[1]);
+                string clearedStringFileName = tag[0] + "." + tag[1] + ".cleared";
+                string clearedStringFilePath = $"{path}/{clearedStringFileName}";
 
                 Lexer clearedLex = new Lexer();
                 clearedLex.tokens = lexer.RemoveCommsAndWs();
@@ -67,12 +83,9 @@ namespace WHILE_Lexer
                 }
             }
 
-
             //Write tokens to console
 
-            lexer.Display();
-
-
+            //lexer.Display();
         }
     }
 }

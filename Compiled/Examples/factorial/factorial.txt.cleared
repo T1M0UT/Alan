@@ -1,0 +1,1 @@
+write"Factorial";result:=1;n:=10;fori:=2upto(n)do{result:=result*i};writeresult

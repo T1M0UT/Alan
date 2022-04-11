@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tymur/Desktop/Alan/ALAN/CW04/Lexer/Lexer/WHILE_Lexer.csproj",
+      "projectUniqueName": "/Users/tymur/Desktop/Alan/ALAN/Compiled/Lexer/Lexer/WHILE_Lexer.csproj",
       "projectName": "WHILE_Lexer",
-      "projectPath": "/Users/tymur/Desktop/Alan/ALAN/CW04/Lexer/Lexer/WHILE_Lexer.csproj",
+      "projectPath": "/Users/tymur/Desktop/Alan/ALAN/Compiled/Lexer/Lexer/WHILE_Lexer.csproj",
       "packagesPath": "/Users/tymur/.nuget/packages/",
-      "outputPath": "/Users/tymur/Desktop/Alan/ALAN/CW04/Lexer/Lexer/obj/",
+      "outputPath": "/Users/tymur/Desktop/Alan/ALAN/Compiled/Lexer/Lexer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tymur/.nuget/NuGet/NuGet.Config"

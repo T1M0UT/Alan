@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ParserCombinators:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ParserCombinators_jar</output-path>
+    <root id="archive" name="ParserCombinators.jar">
+      <element id="module-output" name="ParserCombinators" />
+      <element id="extracted-dir" path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.10/geny_2.13-0.6.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.13/0.7.8/os-lib_2.13-0.7.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
